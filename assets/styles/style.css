@@ -193,7 +193,7 @@ main .about-section .aboutcontent {
 main .about-section .aboutcontent .abouttext {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   width: 100%;
 }
@@ -491,6 +491,14 @@ main .contact-section .contacticons i {
     justify-content: center;
     align-items: flex-start;
     gap: 24px;
+    width: 100%;
+  }
+
+  main .about-section .aboutcontent .abouttext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
     width: 100%;
   }
 
